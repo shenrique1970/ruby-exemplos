@@ -93,7 +93,7 @@ ruby -v
 5. Instalar Rails
 bash
 
-``
+``` 
 gem install rails
 rails -v
 ```
