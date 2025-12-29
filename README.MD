@@ -58,10 +58,7 @@ sudo apt install -y curl gpg build-essential libssl-dev libreadline-dev zlib1g-d
 2. Importar chave GPG do RVM
 bash
 
-``
-gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 \
-                                                  7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-``
+ver como no site https://rvm.io/
 
 3. Instalar RVM
 bash
