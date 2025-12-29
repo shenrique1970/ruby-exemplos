@@ -80,10 +80,11 @@ bash
 rvm list known
 ```
 
+
 Instale uma versão estável (exemplo: Ruby 3.3.0):
 bash
 
-``
+``` 
 rvm install 3.3.0
 rvm use 3.3.0 --default
 ruby -v
