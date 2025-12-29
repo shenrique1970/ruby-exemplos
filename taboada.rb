@@ -12,7 +12,7 @@
 #taboada(3,2)
 #taboada(4,2)
 
-
+# outra forma de se fazer
 def taboada(t, limite = 10) 
   puts "Taboada de #{t}" 
   (1..limite).each do |i| 
