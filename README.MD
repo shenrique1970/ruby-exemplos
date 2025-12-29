@@ -39,9 +39,6 @@
 pry no lugar do irb, instalado dessa forma:
 ```
 gem install pry
-
-
-
 ```
 
 
@@ -69,32 +66,27 @@ bash
 
 
 Depois, carregue o RVM:
-
 bash
 
 ``` 
 source ~/.rvm/scripts/rvm
-
 ```
 
 4. Instalar Ruby
 Liste versões disponíveis:
-
 bash
 
 ```
 rvm list known
-
 ```
-Instale uma versão estável (exemplo: Ruby 3.3.0):
 
+Instale uma versão estável (exemplo: Ruby 3.3.0):
 bash
 
 ``
 rvm install 3.3.0
 rvm use 3.3.0 --default
 ruby -v
-
 ```
 
 5. Instalar Rails
@@ -103,19 +95,15 @@ bash
 ``
 gem install rails
 rails -v
-
 ```
 
 6. Configurar banco de dados
 Rails funciona com SQLite (já vem por padrão) ou PostgreSQL.
-
 Instalar PostgreSQL:
-
 bash
 
 ```
 sudo apt install -y postgresql postgresql-contrib libpq-dev
-
 ```
 
 7. Criar uma aplicação Rails
@@ -126,7 +114,6 @@ rails new minha_app -d postgresql
 cd minha_app
 bin/rails db:create
 bin/rails server
-
 ```
 
 Acesse em http://localhost:3000.
