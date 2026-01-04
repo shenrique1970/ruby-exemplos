@@ -24,11 +24,11 @@ def taboada(t, limite = 10)
   (1..limite).each do |i| 
     puts "#{t} x #{i} = #{t * i}"
   end
-  # salta uma linha a cada ieração.
+  # salta uma linha a cada iteração.
   puts "\n" 
 end
 
 # chama a função
-taboada(2) # até 10 
-taboada(3, 5) # até 5 
-taboada(4, 12) # até 12
+taboada(2) # taboada de 2, não foi informado até quanto, então vai até o limite que é 10.
+taboada(3, 5) # taboada de 3, até 5 
+taboada(4, 12) # taboada de 4, até 12
