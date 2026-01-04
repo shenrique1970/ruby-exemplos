@@ -13,7 +13,7 @@ f = 9   # tentativas restantes
 while c <= 10
   n = nil
 
-  # Validação de entrada
+  # Validação de entrada com 10 chances
   loop do
     print "Digite um número entre 0 e 50: "
     entrada = gets.chomp
